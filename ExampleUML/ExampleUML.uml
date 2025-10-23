@@ -3,9 +3,10 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_nF1rMLAiEfClU5VJIhpnow">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Component" xmi:id="_AX5v4LAkEfClU5VJIhpnow" name="Subsystem2" useCase="_FgVpULAkEfClU5VJIhpnow _Ikf94LAkEfClU5VJIhpnow">
+  <packagedElement xmi:type="uml:Component" xmi:id="_AX5v4LAkEfClU5VJIhpnow" name="Subsystem2" useCase="_FgVpULAkEfClU5VJIhpnow _Ikf94LAkEfClU5VJIhpnow _XboX8LApEfCQcJtXIOY0Bw">
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_FgVpULAkEfClU5VJIhpnow" name="Run Software" subject="_AX5v4LAkEfClU5VJIhpnow"/>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Ikf94LAkEfClU5VJIhpnow" name="Save Files" subject="_AX5v4LAkEfClU5VJIhpnow"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_XboX8LApEfCQcJtXIOY0Bw" name="UseCase3" subject="_AX5v4LAkEfClU5VJIhpnow"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_C7o38LAkEfClU5VJIhpnow" name="User"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_KjqZQLAkEfClU5VJIhpnow" memberEnd="_Kj4bsLAkEfClU5VJIhpnow _Kj5CwLAkEfClU5VJIhpnow">
@@ -21,5 +22,12 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_LH684rAkEfClU5VJIhpnow" name="run software" type="_FgVpULAkEfClU5VJIhpnow" association="_LH6V0LAkEfClU5VJIhpnow"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_LH6847AkEfClU5VJIhpnow" name="user" type="_C7o38LAkEfClU5VJIhpnow" association="_LH6V0LAkEfClU5VJIhpnow"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZCN7QLApEfCQcJtXIOY0Bw" memberEnd="_ZCSMsLApEfCQcJtXIOY0Bw _ZCSMsbApEfCQcJtXIOY0Bw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZCRloLApEfCQcJtXIOY0Bw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZCRlobApEfCQcJtXIOY0Bw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZCSMsLApEfCQcJtXIOY0Bw" name="usecase3" type="_XboX8LApEfCQcJtXIOY0Bw" association="_ZCN7QLApEfCQcJtXIOY0Bw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZCSMsbApEfCQcJtXIOY0Bw" name="user" type="_C7o38LAkEfClU5VJIhpnow" association="_ZCN7QLApEfCQcJtXIOY0Bw"/>
   </packagedElement>
 </uml:Model>
